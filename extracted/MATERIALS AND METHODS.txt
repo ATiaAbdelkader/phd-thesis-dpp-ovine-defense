@@ -1,0 +1,126 @@
+# FILE: MATERIALS AND METHODS.docx
+
+Paragraphs: 110 | Tables: 1
+
+======================================================================
+
+[P0000 | Normal] Materials and methods
+[P0001 | Normal] 3.1 Overview of Research Design
+[P0002 | Normal] This study used a multi-experimental design to assess the conservative influence of date palm pollen (DPP) on epididymal sperm retrieved from sheep after slaughter. Three interconnected studies were carried out: (1) a socioeconomic and trait preference survey of sheep keepers in the El Oued region to establish the context and conservation priorities for indigenous sheep genetic resources; (2) phytochemical characterization and antioxidant assessment of DPP to validate its biochemical composition and biological activity; and (3) a controlled laboratory experiment evaluating DPP's conservative effects on post-slaughter ovine epididymal This triangulated strategy ensures that technical discoveries are based on field conservation needs and validated by rigorous biochemical confirmation.
+[P0003 | Normal] All animal-related experiments were carried out post-mortem at a licensed abattoir, with no live animals involved.
+[P0004 | Normal] 3.2 Experiment 1: Socioeconomic Context and Trait Preference Assessment
+[P0005 | Normal] 3.2.1 Study Area and Rationale
+[P0006 | Normal] This study was carried out in the El Oued region of Southeast Algeria (33°22'16.823" N, 6°50'52.686" E), a key centre of date palm agriculture and sheep production in the Algerian Sahara. The region's agroecological characteristics, including an arid environment, substantial pastoral systems, and the combination of date palm and sheep production, make it a model for post-slaughter genetic rescue and field-applicable preservation measures. The presence of date palm orchards and sheep flocks in this region lays the geographical and cultural groundwork for DPP use in genetic conservation.
+[P0007 | Normal] 3.2.2 Sampling Procedure and Participant Selection
+[P0008 | Normal] To ensure that the sheep production systems in the region were represented, a stratified random sample approach was used. 200 sheep keepers were chosen at random from eight municipalities: El Oued (capital), Debila, Guemar, Hassi Khelifa, Mih Ouensa, Ourmes, Robbah, and Taleb Larbi. Selection criteria included: (a) participation in the government's 2023 national sheep numbering initiative, which ensures official recognition and flock recording; (b) use of grazing-based agricultural practices typical of the region; and (c) readiness to participate in research.
+[P0009 | Normal] Flock size categories were created to reflect production system diversity: <20 animals (smallholder), 20-50 animals (medium), 50-100 animals (large), and >100 animals (commercial). This stratification ensures that conservation priorities encompass the entire range of sheep keepers, from subsistence to commercial producers.
+[P0010 | Normal] 3.2.3 Data Collection Instruments
+[P0011 | Normal] Semi-structured questionnaires with open-ended and closed questions were created to collect comprehensive data on: (a) socioeconomic characteristics (age, education, experience, primary occupation); (b) flock size, structure, and management; and (c) specific trait preferences for male and female sheep, including reproductive performance, adaptation, and production characteristics pertinent to genetic conservation priorities.
+[P0012 | Normal] Questionnaires were pre-tested with 10 sheep keepers in each municipality to ensure relevance and adaptation to local conditions, as recommended for survey instrument validation. (Dossa et al., 2015) Pre-testing evaluated question comprehension, response option suitability, and interview duration, with improvements made for clarity and cultural sensitivity.
+[P0013 | Normal] 3.2.4 Statistical Analysis
+[P0014 | Normal] A multivariate analysis of variance (MANOVA) was used to determine the effects of age, education, experience, and occupation on trait preferences among sheep keepers. Pillai's trace was chosen as the major multivariate test statistic because it is robust to violations of assumptions, such as mismatched sample sizes and heterogeneity of covariance matrices. (Olson, 1976; Tabachnick & Fidell, 2025). Partial eta squared (η²) measures the fraction of variance in dependent variables that can be explained by independent variables. Significance was determined at α = 0.05. All analyses were carried out using IBM SPSS Statistics version 27.0.
+[P0015 | Normal] 3.3 Experiment 2: Phytochemical Characterisation and Antioxidant Assessment of Date Palm Pollen
+[P0016 | Normal] 3.3.1 Plant Material Collection and Processing
+[P0017 | Normal] Date palm pollen (DPP) was collected at Hamraia commune, Reguiba District, El Oued Province (34°6′39" N, 6°13′50" E) during the natural flowering season (late March to early April 2024). This region was chosen for its established date palm plantations with a variety of genotypes and near to the sheep production systems described in Experiment 1.
+[P0018 | Normal] The collection protocol followed established methods for pollen quality preservation (Laghouati et al., 2021; Shahin, 2014):
+[P0019 | Normal] Male inflorescence selection: Healthy, mature male date palm trees were selected, and spathes were separated before dehiscence to prevent contamination and ensure pollen maturity.
+[P0020 | Normal] Harvesting: Mature spathes were removed early in the morning to reduce temperature stress and brought directly to a shaded processing location.
+[P0021 | Normal] Dehiscence induction: Each spathe was opened around 1 mm to allow air in, and the cut base (3-4 cm) was immersed in water to keep it hydrated until full opening.
+[P0022 | Normal] Pollen extraction: Flowers were manually removed after 24-48 hours of drying at ambient temperature (20-25°C) with regular rotating (2-3× daily) to guarantee uniform moisture reduction.
+[P0023 | Normal] Purification: Pollen was sieved using an 80-100 μm fine mesh screen to remove flower debris and impurities.
+[P0024 | Normal] Storage: Purified pollen was dried to reduce moisture content before being stored in airtight containers at 4°C, away from light, until analysis. To avoid contamination, every handling involved the use of sterile devices and gloves.
+[P0025 | Normal] Phytochemical and biological activity analyses were undertaken in March-April 2025, with triplicate determinations and findings reported as mean ± SD.
+[P0026 | Normal] 3.3.2 Proximate Composition Analysis
+[P0027 | Normal] 3.3.2.1 Moisture Content
+[P0028 | Normal] Gravimetric analysis was used to estimate moisture (AOAC 2019). Briefly, 3 g of the sample was equally distributed in a pre-weighed Petri plate and dried in an oven at 105°C for 3 hours. The dish was transported to a desiccator to chill before being reweighed. Drying was repeated until a consistent weight was obtained. The moisture content was estimated as follows:
+[P0029 | Normal] (empty)
+[P0030 | Normal] Where:  Wbefore​ = initial sample weight and Wafter​ = weight after drying.
+[P0031 | Normal] 3.3.2.2 Ash Content
+[P0032 | Normal] The ash content was evaluated using dry ashing (AOAC, 2019). Crucibles were pre-ignited at 550°C overnight to eliminate surface impurities, then cooled in a desiccator and tared. Approximately 5 g of sample was placed in the crucible and ashed in a muffle furnace at 550°C for 6 hours, resulting in gray-white ash. After cooling in a desiccator, the crucibles were weighed again. The ash content was determined as follows:
+[P0033 | Normal] (empty)
+[P0034 | Normal] Where: Wb = weight before burning and Wa ​ = weight after burning
+[P0035 | Normal] 3.3.2.3 Fat Content
+[P0036 | Normal] The fat was removed using Soxhlet extraction with petroleum ether (AOAC, 2019). Extraction thimbles containing 3 g of dried material were inserted in the Soxhlet apparatus with 200 mL of petroleum ether (boiling point 40-60°C) and refluxed for an hour. The solvent was recovered, and the extraction flask was dried at 105°C for an hour before cooling in a desiccator and weighing. Fat content was computed as follows:
+[P0037 | Normal] (empty)
+[P0038 | Normal] Where: Wempty​ = Weight of empty flask (before extraction), Wfinal​ = Weight of flask + extracted fat (after drying) and Wsample = Weight of dried sample used (3g in your case)
+[P0039 | Normal] 3.3.2.4 Protein Content
+[P0040 | Normal] Total nitrogen was determined using the Kjeldahl method (AOAC, 2019), and protein was estimated using the conversion factor 6.25. The sample (1 g) was digested with catalyst (10 g Na₂SO₄ + 1 g CuSO₄) and 12 mL concentrated H₂SO₄ at 420°C for 1 hour, resulting in clear blue-green digestion. After cooling, 20 mL deionized water was added, followed by 25 mL of 40% NaOH for distillation. Ammonia was collected in boric acid using a mixed indicator (methyl red-bromocresol green) and titrated with 0.1N HCl to achieve a bright pink finish. The protein content was determined as follows:
+[P0041 | Normal] (empty)
+[P0042 | Normal] Where: Vsample​ = volume (ml) of HCl used to titrate the sample, Vblank​ = volume (ml) of HCl used to titrate the blank, 1.4007 = Milliequivalent weight of nitrogen (14.007 g/mol ÷ 10) and F = protein conversion factor (usually 6.25 for general protein)
+[P0043 | Normal] 3.3.2.5 Carbohydrate Content
+[P0044 | Normal] The total carbs were measured using the phenol-sulfuric acid colorimetric technique. (DuBois et al., 1956). The sample solution (1 mL) was mixed with 1 mL of 5% phenol solution, then quickly added 5 mL of concentrated H₂SO₄. The mixture was vortexed and incubated at room temperature for 15-30 minutes to allow color to develop. The absorbance was measured at 490 nm using a spectrophotometer. Quantification was performed using a glucose standard curve (0-100 μg/mL). The carbohydrate content was determined as follows:
+[P0045 | Normal] (empty)
+[P0046 | Normal] Where: C = Concentration of glucose obtained from the standard curve (mg/ml) based on sample absorbance at 490 nm, V = Volume (ml) of sample extract used in the test (e.g., 1 ml), W = Weight (g) of the sample used for extraction and Division by 10 converts mg/g to percentage (%) (since 1% = 10 mg/g)
+[P0047 | Normal] 3.3.3 Mineral Content Analysis
+[P0048 | Normal] 3.3.3.1 Calcium
+[P0049 | Normal] Calcium was evaluated by permanganometric titration in accordance with NA 1655 / ISO 6058:1994. The sample (2 g) was dry-ashed at 550°C for 4-6 hours, then dissolved in concentrated HCl. Calcium oxalate was precipitated with ammonium oxalate, then dissolved in H₂SO₄ and titrated with standardized KMnO₄ to achieve a persistent pink finish. The calcium content was determined as follows:
+[P0050 | Normal] (empty)
+[P0051 | Normal] 3.3.3.2 Magnesium
+[P0052 | Normal] Magnesium was determined using complexometric titration with EDTA according to NA 752 / ISO 6059:1989. The total hardness (Ca²⁺ + Mg²⁺) was titrated with EDTA at pH 10 using Eriochrome Black T indicator. Calcium was measured independently at pH 12 using the murexide indicator. Magnesium was computed as a difference:
+[P0053 | Normal] Magnesium (mg/100g)=(Vtotal​−VCa​)×NEDTA​×24.305×Wsample​100​
+[P0054 | Normal] where 24.305 = atomic weight of magnesium.
+[P0055 | Normal] 3.3.3.3 Potassium and Sodium
+[P0056 | Normal] Following NA 1653, potassium and sodium concentrations were evaluated using flame photometry. A 1-2 g sample underwent wet digestion with an HNO₃/HClO₄ combination. The digest was diluted and inhaled into a flame photometer calibrated using standard solutions. The emission intensity was measured at 766.5 nm (K) and 589 nm (Na), and concentrations were determined using calibration curves.
+[P0057 | Normal] 3.3.4 Phytochemical Compound Quantification
+[P0058 | Normal] 3.3.4.1 Extract Preparation
+[P0059 | Normal] DPP extract was prepared by maceration. Briefly, 5 g of finely ground DPP was macerated in 50 mL of 50% ethanol for 24 hours at room temperature with occasional agitation. The extract was filtered, and the filtrate was dried at ≤45°C in an oven, then stored at 4°C until analysis.
+[P0060 | Normal] 3.3.4.2 Total Phenolic Content
+[P0061 | Normal] The total phenolic content was determined using the Folin-Ciocalteu technique (Slinkard & Singleton, 1977). Extract (0.2 mL) was combined with 1 mL of 10% Folin-Ciocalteu reagent. After four minutes, 0.8 mL of saturated sodium carbonate solution (75 g/L) was added. The mixture was incubated at room temperature for 2 hours, and the absorbance was measured at 765 nm. A calibration curve was created using gallic acid (0-200 μg/mL). The results were presented as mg gallic acid equivalents per gram of extract (mg GAE/g).
+[P0062 | Normal] 3.3.4.3 Total Flavonoid Content
+[P0063 | Normal] The total flavonoid concentration was measured using the aluminum chloride colorimetric technique. (Ahn et al., 2007). Mix 1 mL of extract with 1 mL of 2% AlCl₃ solution and incubate at room temperature for 30 minutes. The absorbance was measured at 430 nm against a reagent blank. A calibration curve was created using quercetin (0-100 μg/mL). The results were presented as mg quercetin equivalents per gram of extract (mg QE/g).
+[P0064 | Normal] 3.3.5 Antioxidant Activity Assessment
+[P0065 | Normal] Antioxidant activity was assessed using the DPPH (2,2-diphenyl-1-picrylhydrazyl) radical scavenging assay.(Mansouri et al., 2005). The PPH solution (1 mL, 0.1 mM in methanol) was combined with 1 mL of extract or ascorbic acid (positive control). The mixture was vortexed and incubated in the dark at room temperature for 30 minutes. The absorbance was measured at 517 nm. Percentage inhibition was computed as follows:
+[P0066 | Normal] Inhibition (%)=(Acontrol​Acontrol​−Asample​​)×100
+[P0067 | Normal] where Acontrol​ = absorbance of DPPH without sample and Asample​ = absorbance with extract. IC₅₀ values (concentration inhibiting 50% of DPPH radicals) were determined by plotting percentage inhibition against extract concentration.
+[P0068 | Normal] 3.4 Experiment 3: Evaluation of DPP Conservative Effects on Post-Slaughter Ovine Epididymal Sperm
+[P0069 | Normal] 3.4.1 Ethical Considerations and Animal Material
+[P0070 | Normal] All biological material was taken post-mortem from a licensed abattoir in El Oued, Algeria. No living animals were used. This strategy is consistent with the thesis' focus on post-slaughter genetic rescue while avoiding ethical considerations related with experimental animal sacrifice.
+[P0071 | Normal] Testes were taken from five sexually mature rams (aged 18-24 months) slaughtered at the local abattoir. This sample size gives statistical power while adhering to practical limits such as postmortem tissue availability. Rams were chosen based on apparent health state (no evident pathology) and a body condition score adequate for their age.
+[P0072 | Normal] 3.4.2 Sample Collection and Transport
+[P0073 | Normal] Testes were removed immediately after slaughter and transported to the laboratory within 2 hours in isotonic saline (0.9% NaCl) on ice at 4°C. This transport strategy simulates field situations where quick cooling is critical for maintaining post-mortem sperm viability.(Shayestehyekta et al., 2022; Silva et al., 2025). The 2-hour window represents realistic field-to-laboratory intervals in extensive pastoral systems.
+[P0074 | Normal] Upon arrival, the cauda epididymides were dissected and sterilely cleaned of any clinging connective tissue, blood vessels, or fat. The cauda was carefully targeted as the principal sperm storage area harboring mature, fertilizable spermatozoa.(Wu et al., 2021).
+[P0075 | Normal] 3.4.3 Sperm Recovery
+[P0076 | Normal] Spermatozoa were recovered using the retrograde flushing technique (Martinez-Pastor et al., 2006), A common method for collecting post-mortem epididymal sperm. A single incision was made at the corpus-cauda junction. A 1 mL syringe containing a warm (37°C) saline solution (0.9% NaCl, 308 mOsm/kg, pH 7.2) was introduced into the vas deferens, and gentle, consistent pressure was used to flush spermatozoa down the cauda. The emerging fluid was collected in sterile 15 mL conical tubes.
+[P0077 | Normal] This method was chosen for: (a) good recovery efficiency as compared to mincing or aspiration; (b) low contamination with tissue debris; and (c) compliance with field situations that necessitate simple equipment.
+[P0078 | Normal] 3.4.4 DPP Extender Preparation
+[P0079 | Normal] Date palm pollen extenders (DPPE) were made using the Laghouati et al. (2021) NaCl pollen extender (NPE) method, which was adapted for ovine epididymal sperm. This water extraction method was chosen for its field applicability; it requires no organic solvents, little equipment, and is easily used in resource-constrained environments.
+[P0080 | Normal] Preparation protocol:
+[P0081 | Normal] DPPE-0 (Control): 1 mL saline (0.9% NaCl, 308 mOsm/L, pH 7.2)
+[P0082 | Normal] DPPE-40: 40 mg DPP soaked in 1 mL saline
+[P0083 | Normal] DPPE-80: 80 mg DPP soaked in 1 mL saline
+[P0084 | Normal] DPP was suspended by vortexing, and all tubes were refrigerated at 4°C for 24 hours to allow for bioactive component extraction. Centrifuge tubes (parameters: [insert speed × time]) to remove particle debris. Collect the clear supernatant as an extender for sperm dilution. This extraction duration and temperature were chosen based on Laghouati et al. (2021) preliminary optimisation to maximise polyphenol recovery while minimising microbial growth.
+[P0085 | Normal] 3.4.5 Experimental Design and Treatments
+[P0086 | Normal] Each ram's recovered epididymal sperm was separated into three equal aliquots and diluted 1:1 (v/v) in one of three prepared mediums (DPPE-0, DPPE-40, or DPPE-80). To preserve ovine sperm, the final concentration was adjusted to 350 x 10⁶ cells/mL, which is a standard value.(Maxwell & Watson, 1996).
+[P0087 | Normal] Aliquots (0.5 mL) were placed in sterile tubes, coated with mineral oil to prevent evaporation and gas exchange, and refrigerated at 4°C for 48 hours. This chilled storage protocol was chosen because it is (a) representative of field conditions where cryopreservation infrastructure may not be available, (b) technically simpler than cryopreservation for initial efficacy screening, and (c) physiologically relevant to the "golden hour" extension concept.
+[P0088 | Normal] Quality criteria were assessed at 0, 24, and 48 hours to capture immediate effects, mid-storage stability, and long-term preservation capacity.
+[P0089 | Normal] 3.4.6 Sperm Quality Assessment
+[P0090 | Normal] 3.4.6.1 Total and Progressive Motility (CASA)
+[P0091 | Normal] The samples were gently mixed and equilibrated at 37°C for 5 minutes prior to analysis. To perform Computer-Assisted Sperm Analysis (CASA), 3 μL was fed into a 20-μm Leja® chamber and analyzed using the Sperm Class Analyzer® (SCA) system (Microptic, Barcelona, Spain) at 60 frames per second. Settings include a 10× phase contrast objective and ovine-specific preset parameters.
+[P0092 | Normal] To guarantee a representative evaluation, at least five fields were gathered for each sample. The intra-assay coefficient of variation (CV) for motility parameters was less than 5%, indicating technical precision. CASA provides:
+[P0093 | Normal] Total motility (%): Proportion of sperm with detectable movement
+[P0094 | Normal] Progressive motility (%): Proportion with forward progression (VAP >25 μm/s and STR >50%)
+[P0095 | Normal] CASA was selected for objective, quantitative assessment, eliminating observer bias and enabling detection of subtle kinematic changes indicative of functional status (Amann & Waberski, 2014; Mortimer, 1994).
+[P0096 | Normal] 3.4.6.2 Plasma Membrane Integrity (HOST)
+[P0097 | Normal] Functional membrane integrity was evaluated by the Hypo-Osmotic Swelling Test (HOST) (Jeyendran et al., 1984), which assesses the ability of sperm to maintain osmotic balance—essential for capacitation and fertilisation competence.
+[P0098 | Normal] An iso-osmotic swelling solution (150 mOsm/L sodium citrate with 20 mM fructose) was made. Sperm (50 μL) were incubated with 1 mL of HOST solution for 30 minutes at 37°C, then fixed with 10% formalin. A minimum of 200 cells per sample were scored under phase contrast microscopy (400×) for tail swelling (intact membrane, functional) or non-swollen tails (damaged membrane, non-functional). The HOST-positive proportion was used to generate the conservative effect indicator.
+[P0099 | Normal] 3.4.7 Statistical Analysis
+[P0100 | Normal] Data were presented as mean ± SEM. The effects of extender concentration (0, 40, 80 mg/mL), storage period (0, 24, 48 h), and their interaction were investigated using two-way repeated-measures ANOVA, with "ram" as the subject factor to account for individual animal variance. All analyses were performed using IBM SPSS Statistics version 27.
+[P0101 | Normal] 3.5 Integration of Experiments and Data Flow
+[P0102 | Normal] The sequential structure—context → characterisation → efficacy—ensures that Experiment 3 findings are grounded in validated material (Experiment 2) and relevant conservation needs (Experiment 1), strengthening both internal validity and external applicability.
+[P0103 | Normal] 3.6 Limitations and Methodological Considerations
+[P0104 | Normal] Several limitations should be acknowledged:
+[P0105 | Normal] Sample size in Experiment 3 (n=5 rams) provides adequate power for detecting large effects but may miss subtle treatment differences; replication across seasons and breeds would strengthen generalizability.
+[P0106 | Normal] Chilled storage vs. cryopreservation: The 4°C storage protocol, while field-relevant, does not test DPP effects on freeze-thaw survival; this represents a priority for follow-up research.
+[P0107 | Normal] Single DPP source: Pollen from one region (Hamraia) was characterised; geographic variation in composition may affect reproducibility.
+[P0108 | Normal] Limited assessment endpoints: Motility and membrane integrity were evaluated; comprehensive hierarchical assessment, including oxidative status, mitochondrial function, and fertilising capacity, requires expanded methodology.
+[P0109 | Normal] (empty)
+
+======================================================================
+TABLES
+======================================================================
+
+--- Table 1 (4 rows × 3 cols) ---
+  R00: Experiment || Contribution to Thesis Objectives || Data Integration
+  R01: 1. Socioeconomic survey || Establishes conservation priorities; validates field applicability context; documents DPP traditional use knowledge || Informs interpretation of technical findings; identifies target breeds and keeper needs
+  R02: 2. Phytochemical characterisation || Validates DPP biochemical composition; confirms antioxidant capacity; establishes batch quality standards || Provides a mechanistic rationale for observed effects; enables standardisation
+  R03: 3. Sperm preservation trial || Directly tests conservative effect; evaluates dose-response; validates field-applicable protocol || Core evidence for thesis claims; generates data for optimisation

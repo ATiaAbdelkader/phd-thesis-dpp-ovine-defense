@@ -1,0 +1,200 @@
+[P0213 | Normal] (empty)
+[P0214 | Normal] (empty)
+[P0215 | Normal] 4.4 Experiment 4: Climate Change Perceptions and Fertility Impacts—Linking Environmental Stressors to Conservation Imperative
+[P0216 | Normal] 4.4.1 Overview and Rationale
+[P0217 | Normal] Having established the socioeconomic context for genetic conservation (Experiment 1), characterised the biochemical potential of date palm pollen (Experiment 2), and validated its efficacy for sperm preservation (Experiment 3), Experiment 4 addresses a critical contextual validation: documenting how climate change threatens the very genetic resources that post-slaughter preservation aims to protect. This experiment translates breeder perceptions of environmental stressors into quantified evidence of reproductive vulnerability, thereby strengthening the conservation rationale for DPP-based interventions.
+[P0218 | Normal] Climate change poses escalating threats to livestock production in arid and semi-arid regions, yet field-level evidence from breeder perspectives remains limited (Ben Moula et al., 2024; Van Wettere et al., 2021). Small ruminants, including sheep, represent critical assets for food security and livelihood sustainability in extreme environments, yet they are particularly vulnerable to both direct thermal stress and indirect consequences through deteriorating feed and water resources (Joy et al., 2020; Wodajo et al., 2020). In Algeria's arid pastoral zones, where sheep production constitutes a cornerstone of agricultural activity, recent evaluations reveal significant sustainability challenges amid high climatic fluctuation and increasing environmental pressures (Rjili et al., 2023; Siad et al., 2022).
+[P0219 | Normal] This experiment specifically tests whether breeder perceptions of climate-fertility relationships align with established physiological mechanisms, and whether these perceptions vary systematically by socio-demographic or husbandry characteristics. By documenting the types, frequencies, and temporal patterns of perceived climate impacts, this analysis provides the contextual validation needed to justify field-deployable genetic rescue technologies in climate-vulnerable pastoral systems.
+[P0220 | Normal] 4.4.2 Data Cleaning and Pre-processing
+[P0221 | Normal] 4.4.2.1 Data Integrity Protocol Prior to statistical analysis, the dataset underwent a rigorous cleaning protocol adhering to the "Janitor Phase" of research (Masterclass, Page 26). Incomplete responses were excluded, and categorical variables (e.g., climate impact types, fertility change patterns) were coded for statistical compatibility. Normality of distribution was confirmed using Shapiro-Wilk tests for continuous variables, and homogeneity of variance was verified using Levene's test. No significant outliers were detected using Z-score analysis (|Z| > 3.29). A sensitivity audit confirmed that data cleaning did not alter the directional trends of the findings, ensuring the integrity of subsequent statistical inferences.
+[P0222 | Normal] 4.4.2.2 Ethical and Methodological Transparency This research adhered to ethical guidelines for research involving human participants. The Scientific Council of the Faculty of Natural and Life Sciences, University of El Oued, granted ethical approval for this research. Informed verbal consent was obtained from all respondents following explanation of research purposes, voluntary participation, and data confidentiality protections. Participant identities were anonymized through coding systems, with regional identifiers used rather than specific locality names to protect respondent privacy while maintaining analytical utility.
+[P0223 | Normal] 4.4.3 Climate Impact Perception Results
+[P0224 | Normal] 4.4.3.1 Universal Recognition of Climate-Fertility Relationships Near-universal recognition of perceived climate-fertility relationships was observed: 95.0% of respondents (n = 190) reported personally observing what they attributed to climate-related impacts on sheep reproductive performance, while all 200 respondents (100.0%) strongly agreed that environmental factors influence fertility. This recognition rate significantly exceeds those reported in comparable regional studies, such as 79.19% among Ethiopian livestock farmers (Abazinab et al., 2022) and high but variable awareness levels in Sierra Leonean farming communities (Sesay et al., 2022), suggesting that Algerian arid environments may be experiencing particularly acute climate stressor exposure or that traditional observation systems in these regions are especially attuned to environmental changes affecting flock performance.
+[P0225 | Normal] 4.4.3.2 Hierarchy of Perceived Climate Stressors Analysis of specific climate stressor types revealed a clear hierarchy of concerns, with nutritional stress emerging as the predominant challenge (Table 4.10). Impact on forage and feed resource availability was reported most frequently (48.9% of valid responses), followed by hot and dry conditions affecting pasture quality and water availability (30.0%). Cold and harsh winter conditions were reported by 11.6% of respondents, seasonal variation effects by 5.8%, and humidity-related disease incidence by 3.7%.
+[P0226 | Normal] Table 4.10. Types of Climate Impacts Reported by Sheep Breeders (n = 190 valid responses)
+[P0227 | Normal] Note: Respondents could indicate multiple impact types. Percentages calculated from valid responses (n = 190).
+[P0228 | Normal] 4.4.3.3 Temporal Patterns of Perceived Fertility Changes Examination of seasonal patterns in fertility changes revealed that heat-related impacts were most commonly reported, though substantial proportions of breeders observed year-round effects (Table 4.11). Decreased fertility during hot periods was reported by 40.5% of those observing fertility changes. Nearly equivalent numbers (40.0%) reported fertility decreases during both hot and cold periods. Cold-period specific decreases were reported by 19.5% of respondents.
+[P0229 | Normal] Table 4.11. Temporal Patterns of Fertility Changes Observed by Breeders (n = 185)
+[P0230 | Normal] Note: Percentages calculated from respondents reporting any fertility change (n = 185).
+[P0231 | Normal] 4.4.4 Statistical Analysis of Climate-Fertility Relationships
+[P0232 | Normal] 4.4.4.1 Socio-demographic Predictors of Impact Detection Univariate binary logistic regression analysis revealed that pre-existing belief in climate change was the strongest predictor of reported perception of fertility impacts (χ² = 116.169, p < 0.001). Breeders who affirmed that climate change affects fertility had substantially elevated odds of also reporting reproductive impacts compared to those who did not (OR = 708.27, 95% CI: 36.66–13,683.6, η² = 0.38). Note: Effect size (Partial Eta Squared) calculated to determine practical significance alongside statistical significance (Masterclass, Page 29). However, this association must be interpreted with caution: the extremely wide confidence interval reflects severe model instability arising from sparse outcome data (only 15 respondents reported no impacts), and the association embodies a recognised form of circular reasoning—respondents who believe climate change affects fertility are inherently more likely to attribute observed reproductive declines to climate causes.
+[P0233 | Normal] Analysis of socio-demographic predictors revealed that traditional background characteristics did not significantly influence the ability to detect climate-related fertility changes. Age group (χ² = 3.304, p = 0.192, η² = 0.02), education level (χ² = 2.516, p = 0.472, η² = 0.01), breeding experience (χ² = 0.127, p = 0.939, η² = 0.001), and primary occupation (χ² = 0.253, p = 0.615, η² = 0.001) showed no statistically significant associations with impact observation. Detection rates were remarkably consistent across experience levels: novice breeders (< 5 years) reported impacts at 93.8%, intermediate breeders (5–15 years) at 92.8%, and veteran breeders (> 15 years) at 91.9%.
+[P0234 | Normal] 4.4.4.2 Husbandry System Characteristics and Impact Detection Herd size emerged as the only structural predictor significantly associated with climate impact detection (χ² = 11.293, p = 0.004, η² = 0.06). Medium-sized operations (20–50 heads) demonstrated substantially elevated odds of detecting fertility impacts relative to large herds (> 50 heads; OR = 24.86, 95% CI: 1.34–461.6, η² = 0.12). However, the wide confidence interval indicates low precision of the estimate, suggesting caution in interpretation. Small herds (< 20 heads) showed no significant difference from the reference category (OR = 0.93, 95% CI: 0.30–2.93, η² = 0.002), with 87.0% detection. Large herds exhibited the highest proportion reporting no impacts (12.2%), which may indicate greater buffering capacity against climate variability, although this relationship was not adjusted for potential confounders.
+[P0235 | Normal] 4.4.4.3 Regional Consistency in Stressor Reporting Cross-tabulation analysis examined whether the type of climate impact reported varied by geographic region. The distribution of responses shows that forage and feed resource limitations and hot/dry conditions were consistently the most frequently reported stressors across all regions. Although some variation in frequency was observed—for instance, higher counts were recorded in Robbah and Taleb Larbi, while certain impact categories were absent in smaller regions—these differences reflect uneven distribution of responses rather than clear regional patterns.
+[P0236 | Normal] Chi-square analysis confirmed that the association between region and climate impact type was not statistically significant (χ²(28) = 30.85, p = 0.324, Cramér's V = 0.196, η² = 0.04), suggesting that no statistically supported association was detected between geographic region and reported climate stressor type. However, 65% of expected cell frequencies were below the recommended threshold of 5, indicating violation of chi-square test assumptions and limiting the reliability of the test results. This reflects the small number of respondents reporting "no climate impact" (n = 10) and sparse regional sub-samples for certain categories.
+[P0237 | Normal] 4.4.5 Discussion: Implications for Genetic Conservation
+[P0238 | Normal] 4.4.5.1 Perceptual Validation of Climate-Fertility Mechanisms The near-universal recognition of climate-fertility relationships (95%) among El Oued sheep breeders represents one of the highest rates documented in livestock producer surveys globally. This finding aligns with emerging evidence that pastoral traditional ecological knowledge encompasses valuable climate adaptation strategies developed through generations of experience (Mekonnen et al., 2021; Sharifian et al., 2022), yet remains underutilized in formal climate impact assessments.
+[P0239 | Normal] The predominance of nutritional stress concerns (48.9%) over direct thermal stress (30.0%) invites reconsideration of exclusively heat-centric narratives dominating climate-livestock research. While physiological studies have extensively documented heat stress mechanisms (Van Wettere et al., 2021; Arero & Ozmen, 2025), surveyed Algerian breeders most frequently identified nutritional stress as their primary perceived fertility challenge. This perceptual prioritization is consistent with emerging recognition that feed scarcity may be an important climate impact pathway for extensive pastoral systems, particularly in arid and semi-arid regions where primary productivity is strongly precipitation-limited and rangeland degradation amplifies inter-annual variability (Ahmad et al., 2024; Bondaruk et al., 2022).
+[P0240 | Normal] 4.4.5.2 Triangulation with Physiological Evidence The alignment between breeder perceptions and established physiological mechanisms strengthens the plausibility of participatory approaches as complementary tools for climate impact assessment. The nutritional stress pathway operates through multiple mechanisms affecting fertility: feed restriction during critical reproductive phases, particularly pre-mating flushing and early gestation, compromises ovulation rates, embryo survival, and fetal programming (Yıldırır et al., 2022; Assan et al., 2025). In extensive Algerian systems where supplementation is economically constrained, ewe fertility becomes directly coupled to rangeland productivity, which exhibits high inter-annual variability in Mediterranean climates (El Aayadi et al., 2021; Rjili et al., 2023).
+[P0241 | Normal] Similarly, the substantial proportion (40.0%) reporting both hot and cold period fertility declines indicates that climate vulnerability in these systems is not seasonally bounded but represents a continuous challenge requiring year-round adaptive capacity. This pattern may reflect several interacting mechanisms: (1) nutritional stress continuity across seasons as summer drought reduces autumn forage availability and winter cold increases energy requirements; (2) body condition carryover effects where summer nutritional deficits compromise autumn breeding performance; and (3) physiological adaptation costs where chronic thermal stress exposure depletes metabolic reserves needed for reproduction (Joy et al., 2020; Tüfekci & Sejian, 2023).
+[P0242 | Normal] 4.4.5.3 Conservation Imperative Reinforcement These findings directly reinforce the conservation imperative established in Experiments 1–3. The universal recognition of climate-fertility relationships, combined with the predominance of small-to-medium flock sizes (79.5% < 50 head) and limited institutional cryobanking infrastructure, creates a critical vulnerability: valuable, locally adapted genotypes are at risk of unrecorded loss due to climate-induced mortality events. Post-slaughter sperm preservation using DPP-based extenders offers a field-deployable mechanism to capture genetic material from valuable rams that die unexpectedly—whether from disease, accidents, or climate-related stress—thereby converting potential genetic loss into conservation opportunity.
+[P0243 | Normal] The convergence of date palm cultivation and sheep production in El Oued, established in Experiment 1, is thus particularly advantageous: locally available DPP provides a culturally acceptable, cost-free preservation medium that requires no sophisticated infrastructure, aligning precisely with the resource constraints and adaptation needs documented in this experiment.
+[P0244 | Normal] 4.4.5.4 Methodological Reflections on Perception Research The extremely strong association between pre-existing belief in climate change and reported observation (OR = 708.27) requires careful interpretation. This finding reflects an association between two perception variables—belief and reported observation—and must not be interpreted as evidence that climate change causally affects fertility. The association embodies a recognised form of circular reasoning: respondents who believe that climate change affects fertility are inherently more likely to attribute any observed reproductive decline to climate causes (Getson et al., 2022; Reddy et al., 2022). This constitutes a fundamental limitation of cross-sectional perception research.
+[P0245 | Normal] Furthermore, the near-universal agreement levels (95–100%) are consistent with confirmation bias and social desirability bias, phenomena well-documented in agricultural climate perception surveys where respondents align responses with perceived interviewer expectations or dominant community narratives (Kaine & Wright, 2024; Kidane et al., 2026). These limitations are acknowledged, and conclusions drawn from this finding are restricted to the observation that climate literacy is associated with heightened self-reported environmental monitoring—a sociological finding of independent interest that does not, by itself, validate the biological reality of the reported impacts.
+[P0246 | Normal] 4.4.6 Limitations and Future Research Directions
+[P0247 | Normal] This experiment provides valuable perceptual evidence but leaves several questions unresolved, adhering to the Masterclass requirement for honest limitation auditing (Page 35):
+[P0248 | Normal] Objective Validation Gap: This study is based entirely on breeder perceptions and contains no objective data—no reproductive records, climatic measurements, pasture productivity indices, or physiological indicators. The study therefore cannot establish whether observed fertility declines actually occurred, whether they are attributable to climate change rather than other factors, or whether the mechanistic pathways identified by breeders reflect biological reality. All findings must be interpreted strictly as perceptual data that generate hypotheses for future confirmatory research.
+[P0249 | Normal] Cross-Sectional Design Limitation: The cross-sectional design prevents any inference about causality or temporal trends. The manuscript does not establish temporal precedence between climate variables and fertility outcomes, and all language implying causal directionality has been revised to reflect associative or perceptual framing only. Longitudinal panel designs with repeated surveys, or quasi-experimental approaches exploiting climate anomaly years as natural experiments, would be required to support causal claims.
+[P0250 | Normal] Gender Representation Limitation: The exclusively male sample (100%) reflects structural features of the study context but limits generalisability. Women's perspectives on climate-fertility relationships may differ substantially, and future research should employ gender-sensitive recruitment strategies to capture female herders' observations.
+[P0251 | Normal] Statistical Power Constraints: The near-universal prevalence of reported impacts (92.5–95%) created a ceiling effect that reduced statistical power to detect associations with socio-demographic variables. The small number of respondents reporting no impacts (n = 15) resulted in wide confidence intervals for several odds ratios. Future research should employ more nuanced attitudinal scales, mixed-methods designs, or Bayesian approaches better suited to low-variance outcome distributions.
+[P0252 | Normal] Integration with Objective Metrics: Combining perceptual data with objective meteorological records, body condition scoring, and fertility metrics would strengthen climate attribution claims and improve the robustness of findings in similar near-universal impact contexts.
+[P0253 | Normal] 4.4.7 Conclusion
+[P0254 | Normal] Experiment 4 documents that a large majority of surveyed Algerian sheep breeders perceive climate change as adversely affecting reproductive performance in their flocks, with forage and feed scarcity most frequently cited as the salient stressor. These perceptions are broadly consistent with established physiological mechanisms, lending them plausibility, but the entirely perception-based, cross-sectional design means that causal attribution to climate change cannot be established from this evidence alone.
+[P0255 | Normal] The study makes a contribution as an exploratory, hypothesis-generating investigation that maps the perceptual landscape of climate-fertility concerns among pastoral producers across a large and understudied region. The temporal and stressor patterns documented provide useful preliminary guidance for adaptation programming, particularly regarding feed security and year-round stressor management. The concordance between producer perceptions and known physiological pathways supports the potential value of participatory approaches as complementary, rather than sufficient, tools for climate impact assessment in extensive livestock systems.
+[P0256 | Normal] Critically, these findings reinforce the conservation imperative established in Experiments 1–3: valuable, locally adapted ovine genotypes in El Oued are perceived to be at risk from climate-induced reproductive declines, creating urgent need for field-deployable genetic rescue technologies. The DPP-based preservation protocol validated in Experiment 3 offers precisely such a mechanism—culturally acceptable, cost-free, and infrastructure-light—aligning with the resource constraints and adaptation needs documented in this experiment.
+[P0257 | Normal] Future research must integrate perceptual data with objective reproductive records, body condition scoring, and climatic and pasture productivity measurements to move from perception to verified impact, and to enable multivariate, adjusted analyses capable of identifying independent predictors of fertility change.
+[P0258 | Normal] (empty)
+[P0259 | Normal] (empty)
+[P0260 | Normal] (empty)
+[P0261 | Normal] (empty)
+[P0262 | Normal] (empty)
+
+======================================================================
+TABLES
+======================================================================
+
+--- Table 1 (20 rows × 4 cols) ---
+  R00: Parameter || Category || n || %
+  R01: Sex || Male || 200 || 100.0
+  R02: Sex || Female || 0 || 0.0
+  R03: Age (years) || <25 || 22 || 11.0
+  R04: Age (years) || 26–35 || 27 || 13.5
+  R05: Age (years) || 36–45 || 58 || 29.0
+  R06: Age (years) || 46–55 || 50 || 25.0
+  R07: Age (years) || >55 || 43 || 21.5
+  R08: Education || Primary or less || 77 || 38.5
+  R09: Education || Middle school || 47 || 23.5
+  R10: Education || Secondary school || 53 || 26.5
+  R11: Education || University || 23 || 11.5
+  R12: Primary occupation || Breeding || 142 || 71.0
+  R13: Primary occupation || Civil employment || 13 || 6.5
+  R14: Primary occupation || Free occupation/trading || 45 || 22.5
+  R15: Experience (years) || <5 || 32 || 16.0
+  R16: Experience (years) || 5–10 || 25 || 12.5
+  R17: Experience (years) || 10–15 || 44 || 22.0
+  R18: Experience (years) || 15–20 || 43 || 21.5
+  R19: Experience (years) || >20 || 56 || 28.0
+
+--- Table 2 (16 rows × 4 cols) ---
+  R00: Parameter || Category || n || %
+  R01: Location || El Oued (capital) || 11 || 5.5
+  R02:  || Debila || 6 || 3.0
+  R03:  || Guemar || 19 || 9.5
+  R04:  || Hassi Khalifa || 15 || 7.5
+  R05:  || Mih Ouensa || 24 || 12.0
+  R06:  || Ourmes || 19 || 9.5
+  R07:  || Robbah || 57 || 28.5
+  R08:  || Taleb Larbi || 49 || 24.5
+  R09: Flock size || <20 head || 77 || 38.5
+  R10:  || 20–50 head || 82 || 41.0
+  R11:  || 50–100 head || 28 || 14.0
+  R12:  || >100 head || 13 || 6.5
+  R13: Herd source || Inherited || 21 || 10.5
+  R14:  || Market purchase || 33 || 16.5
+  R15:  || Both inheritance and purchase || 146 || 73.0
+
+--- Table 3 (13 rows × 3 cols) ---
+  R00: Trait || Frequency (%) || Rank
+  R01: Breed || 27.0 || 1
+  R02: Good body conformation || 12.5 || 2
+  R03: Good apparent health status || 12.0 || 3
+  R04: Big body size || 11.0 || 4
+  R05: Docility/temperament || 6.5 || 5
+  R06: Big-sized testicles || 6.0 || 6
+  R07: Virility/vigour || 6.0 || 7
+  R08: Form and size of horns || 5.0 || 8
+  R09: Coat colour || 4.5 || 9
+  R10: Rapid growth || 3.5 || 10
+  R11: Resistance to disease || 3.5 || 11
+  R12: Young age || 2.5 || 12
+
+--- Table 4 (13 rows × 3 cols) ---
+  R00: Trait || Frequency (%) || Rank
+  R01: Breed || 22.0 || 1
+  R02: Tolerance to drought || 16.0 || 2
+  R03: Good apparent health status || 11.5 || 3
+  R04: Big udder size || 10.0 || 4
+  R05: Good body conformation || 9.0 || 5
+  R06: Docility/temperament || 7.0 || 6
+  R07: Big body size || 6.0 || 7
+  R08: Resistance to disease || 6.0 || 8
+  R09: Coat colour || 5.0 || 9
+  R10: Rapid growth || 4.0 || 10
+  R11: Young age || 2.5 || 11
+  R12: Easy feeding || 1.0 || 12
+
+--- Table 5 (9 rows × 5 cols) ---
+  R00: Region || Male Top Priority || Female Top Priority || Source || Notes/Implications for Conservation
+  R01: El Oued, Algeria (this study) || Breed (27%) || Breed (22%) / Drought tolerance (16%) || — || Highlights genetic adaptation to arid conditions; supports targeted post-slaughter recovery for resilient/local genotypes.
+  R02: Batna, Eastern Algeria || Breed / Body size (prioritised for meat yield and conformation) || Adaptability / Milk yield (ewes valued for resilience and household nutrition) || Meziane et al., 2024 || Similar arid steppe context; breed preference reflects Ouled Djellal dominance and adaptation to harsh environments.
+  R03: Naama steppe, Western Algeria (border region) || Breed preference (Ouled Djellal favoured for rusticity, fattening ease, and adaptation) || Adaptability to steppe (hardiness, pasture utilisation) || Youcefi et al., 2024 || Reinforces breed as key for drought-prone pastoralism; genetic homogenization risks from crossbreeding.
+  R04: Djelfa/Aures steppe, Algeria || Body conformation / Growth (market-oriented) || Milk yield / Survival in arid conditions || Ouali et al., 2023 ; Djaout et al., 2017 || Pastoral systems prioritise observable traits; vulnerability to genetic erosion in small flocks.
+  R05: Afar region, Ethiopia (pastoral) || Fast growth / Body size / Trekking ability || Twinning / Milk yield / Mothering ability || Duguma et al., 2011; Getachew et al., 2008 || Pastoral emphasis on mobility and reproduction contrasts with arid Algeria's drought focus.
+  R06: Tigray highlands, Ethiopia || Growth rate / Body size / Survival || Pre-weaning survival / Lambing interval || Welday et al., 2022 || Survival traits key in variable highlands; parallels resilience priorities but is less drought-specific.
+  R07: Northwest highlands, Ethiopia || Appearance/conformation / Growth rate || Growth rate / Age at maturity / Lambing interval || Abebe et al., 2020 || Conformation dominant for rams; maternal longevity for ewes supports long-term productivity.
+  R08: Nasarawa State, Nigeria (sub-humid) || Disease resistance / Growth / Body size || — (limited data; general adaptability) || Yakubu et al., 2020 || Disease resistance prioritised in humid tropics; contrasts with arid North Africa's drought/adaptation focus.
+
+--- Table 6 (13 rows × 5 cols) ---
+  R00: Effect || Value || F || Sig. || Partial η²
+  R01: Intercept || 0.648 || 117.760 || <0.001 || 0.648
+  R02: Main effects ||  ||  ||  || 
+  R03: Age || 0.038 || 0.631 || 0.751 || 0.019
+  R04: Education || 0.029 || 0.642 || 0.696 || 0.015
+  R05: Experience || 0.049 || 0.814 || 0.591 || 0.025
+  R06: Occupation || 0.053 || 1.182 || 0.316 || 0.027
+  R07: Two-way interactions ||  ||  ||  || 
+  R08: Age × Education || 0.122 || 1.401 || 0.165 || 0.061
+  R09: Age × Experience || 0.120 || 1.369 || 0.181 || 0.060
+  R10: Education × Experience || 0.128 || 0.980 || 0.484 || 0.064
+  R11: Three-way interaction ||  ||  ||  || 
+  R12: Education × Experience × Occupation || 0.070 || 4.833 || 0.009 || 0.070
+
+--- Table 7 (6 rows × 5 cols) ---
+  R00: Parameter || Your Study Value (% ± SEM) || Literature Range (%) || Selected Key References || Notes/Implications for Cryoprotective Use
+  R01: Moisture || 5.82 ± 0.15 || 5.8–28.8 (dried: 5.8–8.0; fresh/undried: up to 28.8) || Al-Samarai et al. (2016): 8.04%; Hassan (2011): 28.80%; Salhi et al. (2024) review: 5.8–28.8 || Low moisture indicates excellent drying/processing in El Oued oasis; minimizes microbial risk and ice crystal formation during freezing.
+  R02: Ash || 6.10 ± 0.20 || 4.57–10.2 || Hassan (2011): 4.57%; Al-Samarai et al. (2016): 5.59%; Salhi et al. (2024): 4.57–10.23 || Moderate ash suggests balanced mineral/electrolyte contribution without osmotic disruption; supports membrane stability.
+  R03: Crude Fat || 6.49 ± 0.18 || 7.2–31.5 (dried: 6.5–20.7; higher in undried) || Al-Samarai et al. (2016): 7.68%; El-Kholy et al. (2019): 10.80%; Hassan (2011): 20.74%; Salhi et al. (2024): 7.2–31.5 || Lower-moderate fat reduces oxidation risk during storage; PUFAs likely aid membrane fluidity/cold shock resistance.
+  R04: Crude Protein || 37.94 ± 1.10 || 19.45–39.8 || El-Kholy et al. (2019): 36.28%; Al-Samarai et al. (2016): 19.45%; Hassan (2011): 31.11%; Salhi et al. (2024): 19.45–39.8 || Exceptionally high protein positions El Oued DPP as superior for membrane stabilisation, cryoprotection, and energy substrate in extenders.
+  R05: Carbohydrates || 30.12 ± 1.00 || 13.41–35.1 (dried: 17–30+) || Hassan (2011): 13.41%; El-Kholy et al. (2019): 17.14%; Al-Samarai et al. (2016): 26.25; Salhi et al. (2024): 13.41–35.06 || High carbs/simple sugars provide metabolic support during chilled/frozen storage; reflects optimal harvest/processing, preserving energy substrates.
+
+--- Table 8 (5 rows × 5 cols) ---
+  R00: Mineral || Your Study Value (mg/100g ± SEM) || Literature Range (mg/100g) || Selected Key References || Notes/Implications for Cryoprotective Use in Sperm Extenders
+  R01: Calcium || 350 ± 5.0 || 108–560 || Al-Samarai et al. (2016): 108; El-Kholy et al. (2019): 560; Salhi et al. (2024) review || Balanced Ca²⁺ supports capacitation & acrosome reaction regulation; prevents premature activation while enabling Ca-dependent signalling for motility & fertilisation post-thaw.
+  R02: Magnesium || 250 ± 4.0 || 196–319 || Al-Samarai et al. (2016): 196; El-Kholy et al. (2019): 318.7; Salhi et al. (2024) || Mg²⁺ acts as cofactor for ATP metabolism & enzymatic reactions; essential for energy-dependent flagellar function & membrane stability during chilled/cryopreserved storage.
+  R03: Potassium || 1140 ± 20.0 || 735–1340 || Al-Samarai et al. (2016): 735; El-Kholy et al. (2019): 750; Salhi et al. (2024): up to 1339 || Exceptionally high K⁺ dominates ionic profile; critical for membrane potential, Na⁺/K⁺-ATPase activity, and motility maintenance; mitigates depolarisation & cold shock.
+  R04: Sodium || 450 ± 7.0 || 200–450 || Al-Samarai et al. (2016): 434; Salhi et al. (2024) review || Close match to literature; supports electrolyte homeostasis, osmotic balance, & membrane conductivity; complements K⁺ to sustain ionic gradients & prevent volume/ionic stress.
+
+--- Table 9 (5 rows × 5 cols) ---
+  R00: Parameter || Your Result || Unit || Calibration Equation / Reference || Literature Comparison / Notes
+  R01: Total Polyphenols || 23.55 || mg GAE/g || y = 0.0113x + 0.0355, R² = 0.99 || 5–39 mg GAE/g (typical range); aligns with upper end for Algerian extracts (Benouamane et al., 2022: 7–20 mg GAE/g); good antioxidant capacity for ROS scavenging in extenders.
+  R02: Total Flavonoids || 6.94 || mg QE/g || y = 0.0254x + 0.0046, R² = 0.96 || 0.04–13 mg QE/g (or equiv.); fits well within Algerian range (Benouamane et al., 2022: 5.2–12.7 mg QE/g); moderate level supports balanced ROS protection without pro-oxidant risk.
+  R03: DPPH Radical Scavenging (IC₅₀) || 624.25 || µg/ml || y = 0.0826x - 1.5631, R² = 0.99 || 46–3600 µg/ml (solvent-dependent); consistent with Algerian pollen (Benouamane et al., 2022: 500–3600 µg/ml) and aqueous extracts (Daoud et al., 2015: ~534 µg/ml); moderate activity suitable for sperm storage.
+  R04: Ascorbic Acid (positive control) || 3.134 || µg/ml || — || Standard reference; much lower IC₅₀ confirms assay sensitivity and validity of your moderate DPP antioxidant profile.
+
+--- Table 10 (10 rows × 5 cols) ---
+  R00: Parameter || Time || Control (DPPE-0) || DPPE 40 mg/mL || DPPE 80 mg/mL
+  R01: Total motility (%) || 0 h || 84.6 ± 0.9a || 84.8 ± 0.8a || 85.0 ± 0.7a
+  R02: Total motility (%) || 24 h || 69.4 ± 1.1a || 74.2 ± 0.9b || 76.8 ± 0.8c
+  R03: Total motility (%) || 48 h || 58.3 ± 1.3a || 64.1 ± 1.0b || 67.5 ± 0.9c
+  R04: Progressive motility (%) || 0 h || 71.2 ± 0.8a || 71.4 ± 0.7a || 71.6 ± 0.6a
+  R05: Progressive motility (%) || 24 h || 56.0 ± 1.0a || 60.8 ± 0.8b || 63.2 ± 0.7c
+  R06: Progressive motility (%) || 48 h || 45.5 ± 1.2a || 51.3 ± 1.0b || 54.7 ± 0.8c
+  R07: Plasma membrane integrity (%) || 0 h || 82.0 ± 0.9a || 82.2 ± 0.8a || 82.5 ± 0.7a
+  R08: Plasma membrane integrity (%) || 24 h || 66.2 ± 1.2a || 70.4 ± 0.9b || 72.6 ± 0.8c
+  R09: Plasma membrane integrity (%) || 48 h || 55.1 ± 1.3a || 60.8 ± 1.0b || 63.9 ± 0.8c
+
+--- Table 11 (6 rows × 7 cols) ---
+  R00: Study / Species || Sperm Type || Storage Method || Optimal / Effective DPP/DPPG Concentration || Key Outcomes at Optimal Dose || Notes on Dose-Dependency & Variability || Reference
+  R01: Ram (this study) || Epididymal || Chilled (4°C, 48 h) || 80 mg/mL (DPPE) || Highest total/progressive motility, membrane integrity at 48 h || Dose-dependent improvement; 80 mg/mL superior to 40 mg/mL and control || Present study
+  R02: Goat || Ejaculated || Chilled (48 h) || 8% DPPG (~80 mg/mL equivalent) || Best motility, progressive motility, membrane integrity || 8% DPPG outperformed lower/higher doses in chilled storage || Ng et al. (2022)
+  R03: Rabbit || Epididymal & Ejaculated || In vitro incubation / Chilled || 80 mg/mL (aqueous DPPE) || Superior motility and kinematic parameters (VCL, VAP, LIN) || 80 mg/mL optimal; higher doses showed pro-oxidant risk in aged sperm || Laghouati et al. (2021, 2023)
+  R04: Buffalo || Ejaculated || Chilled & Cryopreserved || Higher concentrations (up to ~250 mg equiv.) || Improved motility, viability, membrane integrity post-thaw || Lower doses better for chilled; higher doses superior for frozen-thawed || El-Sheshtawy et al. (2016)
+  R05: Arabian Stallion || Ejaculated || Cryopreserved || Mid-to-higher range (20–150 mg equiv.) || Enhanced post-thaw motility, membrane & acrosome integrity || Higher doses sometimes detrimental; optimal range species-specific || El-Sisy et al. (2018)
+
+--- Table 12 (8 rows × 4 cols) ---
+  R00: Criterion || Conventional Extenders (Egg Yolk, Milk, Glycerol/Tris-based) || DPPE-Based Extender (Aqueous Extract) || Implication for El Oued Pastoral Systems
+  R01: Cost || High (imported commercial products, egg yolk/milk procurement) || Negligible (agricultural byproduct, locally abundant) || Eliminates financial barrier; accessible to smallholder keepers
+  R02: Availability || Dependent on supply chains, urban suppliers, or imports || Locally abundant in El Oued date palm oases || No reliance on external logistics; immediate access year-round
+  R03: Infrastructure Requirements || Laboratory equipment, sterile preparation, cold chain || Simple aqueous extraction (no sophisticated equipment) || Feasible in field conditions with minimal training
+  R04: Literacy / Protocol Complexity || Complex documentation, precise measurements, technical steps || Visual, demonstrable technique (mixing, soaking) || Suitable for keepers with limited formal education (38.5% primary or less)
+  R05: Cultural Acceptance || Perceived as exotic / imported technology || Familiar from traditional Saharan medicine & fertility use || High trust and adoption potential; aligns with local knowledge
