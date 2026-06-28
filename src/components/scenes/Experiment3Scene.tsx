@@ -3,9 +3,11 @@
 import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Microscope, Target, TrendingUp, Activity, Zap, Heart } from "lucide-react";
+import { Microscope, Target, TrendingUp, Activity, Zap, Heart, FlaskConical, BarChart3 } from "lucide-react";
 import { motion } from "framer-motion";
 import SpeakerNotes, { SpeakerNote } from "@/components/SpeakerNotes";
+import MethodologyTimeline from "@/components/MethodologyTimeline";
+import { EXP3_METHODS } from "@/components/methodologyData";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend, ReferenceDot, BarChart, Bar, Cell, LabelList } from "recharts";
 
 const motilityData = [{ time: "0h", control: 78.5, dpp40: 79.8, dpp80: 80.2 }, { time: "24h", control: 68.2, dpp40: 72.5, dpp80: 74.8 }, { time: "48h", control: 58.3, dpp40: 63.1, dpp80: 67.5 }];
@@ -34,6 +36,7 @@ type ViewType = "total" | "progressive" | "host";
 
 export default function Experiment3Scene() {
   const [view, setView] = useState<ViewType>("total");
+  const [mode, setMode] = useState<"methodology" | "results">("methodology");
   const chartData = view === "total" ? motilityData : view === "progressive" ? progressiveData : hostData;
   const chartTitle = view === "total" ? "Total Motility (%)" : view === "progressive" ? "Progressive Motility (%)" : "Membrane Integrity - HOST (%)";
   const gain48h = view === "total" ? 9.2 : view === "progressive" ? 9.2 : 8.8;
@@ -53,6 +56,48 @@ export default function Experiment3Scene() {
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary mb-2">Sperm Preservation Trial Results</h2>
         <p className="text-muted-foreground text-sm">Dose-dependent DPPE conservative effects on post-slaughter ovine epididymal sperm — the central findings</p>
       </div>
+
+      {/* Methodology / Results toggle */}
+      <div className="flex gap-1 p-1 bg-secondary rounded-md mb-6 w-fit">
+        <button
+          onClick={() => setMode("methodology")}
+          className={`flex items-center gap-1.5 px-4 py-2 rounded text-xs font-bold transition-all ${mode === "methodology" ? "bg-accent text-accent-foreground shadow-sm" : "text-muted-foreground"}`}
+        >
+          <FlaskConical className="h-3.5 w-3.5" />
+          Methodology
+        </button>
+        <button
+          onClick={() => setMode("results")}
+          className={`flex items-center gap-1.5 px-4 py-2 rounded text-xs font-bold transition-all ${mode === "results" ? "bg-primary text-primary-foreground shadow-sm" : "text-muted-foreground"}`}
+        >
+          <BarChart3 className="h-3.5 w-3.5" />
+          Results
+        </button>
+      </div>
+
+      {/* METHODOLOGY VIEW */}
+      {mode === "methodology" && (
+        <Card className="p-6 mb-6">
+          <div className="flex items-center gap-2 mb-4">
+            <FlaskConical className="h-5 w-5 text-accent" />
+            <h3 className="font-heading text-lg font-bold text-primary">Experiment 3 Methodology — Step by Step</h3>
+          </div>
+          <MethodologyTimeline steps={EXP3_METHODS} color="#2D5016" experimentTitle="Sperm Preservation Trial" />
+          <div className="mt-6 flex justify-center">
+            <button
+              onClick={() => setMode("results")}
+              className="flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground text-sm font-bold hover:bg-primary/90 transition-all"
+            >
+              <BarChart3 className="h-4 w-4" />
+              Proceed to Results →
+            </button>
+          </div>
+        </Card>
+      )}
+
+      {/* RESULTS VIEW */}
+      {mode === "results" && (
+        <>
 
       <Card className="p-4 mb-6 bg-primary/5 border-primary/30">
         <div className="flex items-start gap-3">
@@ -185,6 +230,9 @@ export default function Experiment3Scene() {
           <p className="text-xs text-foreground leading-relaxed"><strong className="text-primary">National scale projection:</strong> Algeria loses ~200,000 breeding rams annually to mortality. At DPPE-80 adoption, this represents <strong className="text-accent">0.5–4.2 million additional AI doses per year</strong> — genetic value that would otherwise be irreversibly lost.</p>
         </div>
       </Card>
+
+        </>
+      )}
 
       <SpeakerNotes notes={notes} defaultOpen={true} />
     </div>

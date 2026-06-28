@@ -17,7 +17,9 @@ import GHSICalculatorScene from "@/components/scenes/GHSICalculatorScene";
 import RescueSimulatorScene from "@/components/scenes/RescueSimulatorScene";
 import ClimateSimulatorScene from "@/components/scenes/ClimateSimulatorScene";
 import ConclusionScene from "@/components/scenes/ConclusionScene";
+import InterconnectionScene from "@/components/scenes/InterconnectionScene";
 import PresentationAssistant from "@/components/PresentationAssistant";
+import { Network } from "lucide-react";
 
 export type Scene =
   | "hero"
@@ -27,6 +29,7 @@ export type Scene =
   | "exp2"
   | "exp3"
   | "exp4"
+  | "interconnection"
   | "dose-response"
   | "sperm-3d"
   | "ghsi"
@@ -42,12 +45,13 @@ const SCENES: { id: Scene; title: string; icon: React.ElementType; section: stri
   { id: "exp2", title: "Exp 2: DPP Bio", icon: Beaker, section: "04", group: "experiments" },
   { id: "exp3", title: "Exp 3: Sperm", icon: Microscope, section: "05", group: "experiments" },
   { id: "exp4", title: "Exp 4: Climate", icon: Cloud, section: "06", group: "experiments" },
-  { id: "dose-response", title: "Dose Mixer", icon: Activity, section: "07", group: "interactive" },
-  { id: "sperm-3d", title: "3D Sperm", icon: Atom, section: "08", group: "interactive" },
-  { id: "ghsi", title: "GHSI Calc", icon: Calculator, section: "09", group: "interactive" },
-  { id: "rescue-simulator", title: "Rescue Game", icon: Timer, section: "10", group: "interactive" },
-  { id: "climate-simulator", title: "Climate Sim", icon: Cloud, section: "11", group: "interactive" },
-  { id: "conclusion", title: "Conclusion", icon: ChevronRight, section: "12", group: "outro" },
+  { id: "interconnection", title: "Links", icon: Network, section: "07", group: "experiments" },
+  { id: "dose-response", title: "Dose Mixer", icon: Activity, section: "08", group: "interactive" },
+  { id: "sperm-3d", title: "3D Sperm", icon: Atom, section: "09", group: "interactive" },
+  { id: "ghsi", title: "GHSI Calc", icon: Calculator, section: "10", group: "interactive" },
+  { id: "rescue-simulator", title: "Rescue Game", icon: Timer, section: "11", group: "interactive" },
+  { id: "climate-simulator", title: "Climate Sim", icon: Cloud, section: "12", group: "interactive" },
+  { id: "conclusion", title: "Conclusion", icon: ChevronRight, section: "13", group: "outro" },
 ];
 
 const GROUP_LABELS: Record<string, string> = {
@@ -167,6 +171,7 @@ export default function Home() {
             {currentScene === "exp2" && <Experiment2Scene />}
             {currentScene === "exp3" && <Experiment3Scene />}
             {currentScene === "exp4" && <Experiment4Scene />}
+            {currentScene === "interconnection" && <InterconnectionScene />}
             {currentScene === "dose-response" && <DoseResponseScene />}
             {currentScene === "sperm-3d" && <Sperm3DScene />}
             {currentScene === "ghsi" && <GHSICalculatorScene />}

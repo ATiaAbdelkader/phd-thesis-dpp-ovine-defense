@@ -3,8 +3,10 @@
 import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Users, TrendingUp, Target, Brain } from "lucide-react";
+import { Users, TrendingUp, Target, Brain, FlaskConical, BarChart3 } from "lucide-react";
 import SpeakerNotes, { SpeakerNote } from "@/components/SpeakerNotes";
+import MethodologyTimeline from "@/components/MethodologyTimeline";
+import { EXP1_METHODS } from "@/components/methodologyData";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, Legend, LineChart, Line } from "recharts";
 
 const ageData = [{ age: "<25", pct: 11 }, { age: "25-35", pct: 24.5 }, { age: "36-45", pct: 28.5 }, { age: "46-55", pct: 22 }, { age: ">55", pct: 14 }];
@@ -41,10 +43,11 @@ const notes: SpeakerNote[] = [
 
 export default function Experiment1Scene() {
   const [view, setView] = useState<"rams" | "ewes">("rams");
+  const [mode, setMode] = useState<"methodology" | "results">("methodology");
 
   return (
     <div className="p-6 md:p-10 max-w-7xl mx-auto">
-      <div className="mb-6">
+      <div className="mb-4">
         <div className="flex items-center gap-2 mb-2">
           <Badge variant="outline" className="text-accent border-accent/40 font-num">EXPERIMENT 01</Badge>
           <Badge variant="secondary" className="text-[10px] gap-1"><Users className="h-3 w-3" /> n=200 · 8 municipalities</Badge>
@@ -52,6 +55,48 @@ export default function Experiment1Scene() {
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary mb-2">Socioeconomic Context & Trait Preferences</h2>
         <p className="text-muted-foreground text-sm">Survey of 200 sheep keepers across El Oued region — establishing conservation priorities</p>
       </div>
+
+      {/* Methodology / Results toggle */}
+      <div className="flex gap-1 p-1 bg-secondary rounded-md mb-6 w-fit">
+        <button
+          onClick={() => setMode("methodology")}
+          className={`flex items-center gap-1.5 px-4 py-2 rounded text-xs font-bold transition-all ${mode === "methodology" ? "bg-accent text-accent-foreground shadow-sm" : "text-muted-foreground"}`}
+        >
+          <FlaskConical className="h-3.5 w-3.5" />
+          Methodology
+        </button>
+        <button
+          onClick={() => setMode("results")}
+          className={`flex items-center gap-1.5 px-4 py-2 rounded text-xs font-bold transition-all ${mode === "results" ? "bg-primary text-primary-foreground shadow-sm" : "text-muted-foreground"}`}
+        >
+          <BarChart3 className="h-3.5 w-3.5" />
+          Results
+        </button>
+      </div>
+
+      {/* METHODOLOGY VIEW */}
+      {mode === "methodology" && (
+        <Card className="p-6 mb-6">
+          <div className="flex items-center gap-2 mb-4">
+            <FlaskConical className="h-5 w-5 text-accent" />
+            <h3 className="font-heading text-lg font-bold text-primary">Experiment 1 Methodology — Step by Step</h3>
+          </div>
+          <MethodologyTimeline steps={EXP1_METHODS} color="#8B6914" experimentTitle="Socioeconomic Survey" />
+          <div className="mt-6 flex justify-center">
+            <button
+              onClick={() => setMode("results")}
+              className="flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground text-sm font-bold hover:bg-primary/90 transition-all"
+            >
+              <BarChart3 className="h-4 w-4" />
+              Proceed to Results →
+            </button>
+          </div>
+        </Card>
+      )}
+
+      {/* RESULTS VIEW */}
+      {mode === "results" && (
+        <>
 
       <Card className="p-4 mb-6 bg-accent/5 border-accent/30">
         <div className="flex items-start gap-3">
@@ -172,6 +217,9 @@ export default function Experiment1Scene() {
           <p className="text-xs text-foreground leading-relaxed">Highly educated, experienced, full-time breeders prioritize long-term resilience traits (drought tolerance, disease resistance, breed identity). Less experienced keepers and those with secondary occupations focus on visible morphological attributes (body conformation, coat quality). <strong className="text-primary">Conservation interventions should target full-time breeders with substantial experience as the most receptive audience.</strong></p>
         </div>
       </Card>
+
+        </>
+      )}
 
       <SpeakerNotes notes={notes} defaultOpen={false} />
     </div>
