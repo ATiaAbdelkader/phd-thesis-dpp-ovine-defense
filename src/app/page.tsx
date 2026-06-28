@@ -17,6 +17,7 @@ import GHSICalculatorScene from "@/components/scenes/GHSICalculatorScene";
 import RescueSimulatorScene from "@/components/scenes/RescueSimulatorScene";
 import ClimateSimulatorScene from "@/components/scenes/ClimateSimulatorScene";
 import ConclusionScene from "@/components/scenes/ConclusionScene";
+import PresentationAssistant from "@/components/PresentationAssistant";
 
 export type Scene =
   | "hero"
@@ -189,6 +190,9 @@ export default function Home() {
           </Button>
         </div>
       </footer>
+
+      {/* Presentation Assistant — floating panel with timer, teleprompter, and Q&A */}
+      <PresentationAssistant currentScene={currentScene} />
     </div>
   );
 }
